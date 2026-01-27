@@ -1,0 +1,1760 @@
+fileFormatVersion: 2
+guid: 06213e99292005e469045d5e0c738eca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2078971164879407021
+    second: BossJuego_0
+  - first:
+      213: 7676005053163583906
+    second: BossJuego_1
+  - first:
+      213: 2510574162674014093
+    second: BossJuego_2
+  - first:
+      213: -4956463767801019782
+    second: BossJuego_3
+  - first:
+      213: 4100019727618370883
+    second: BossJuego_4
+  - first:
+      213: -2910726267063027012
+    second: BossJuego_5
+  - first:
+      213: 1423247648602258805
+    second: BossJuego_6
+  - first:
+      213: -1731369202811344515
+    second: BossJuego_7
+  - first:
+      213: 3674345812902895520
+    second: BossJuego_8
+  - first:
+      213: 6178551544680331495
+    second: BossJuego_9
+  - first:
+      213: -7314608083639688332
+    second: BossJuego_10
+  - first:
+      213: 2258407653386246195
+    second: BossJuego_11
+  - first:
+      213: 2311649387251043491
+    second: BossJuego_12
+  - first:
+      213: -2426327701170724499
+    second: BossJuego_13
+  - first:
+      213: 3078079973372306045
+    second: BossJuego_14
+  - first:
+      213: 3663894658257643129
+    second: BossJuego_15
+  - first:
+      213: -4706016409313981869
+    second: BossJuego_16
+  - first:
+      213: 7846629755801721452
+    second: BossJuego_17
+  - first:
+      213: -292236314259855434
+    second: BossJuego_18
+  - first:
+      213: -5915776042213661917
+    second: BossJuego_19
+  - first:
+      213: 9194720404041672490
+    second: BossJuego_20
+  - first:
+      213: 8607986012796312672
+    second: BossJuego_21
+  - first:
+      213: 4505147953361982264
+    second: BossJuego_22
+  - first:
+      213: -8742526689270807423
+    second: BossJuego_23
+  - first:
+      213: 818267905004896907
+    second: BossJuego_24
+  - first:
+      213: -2001680450389325956
+    second: BossJuego_25
+  - first:
+      213: -4360264151456473676
+    second: BossJuego_26
+  - first:
+      213: -6759557809366177927
+    second: BossJuego_27
+  - first:
+      213: -1459001959507497736
+    second: BossJuego_28
+  - first:
+      213: -6897746518198869419
+    second: BossJuego_29
+  - first:
+      213: 1482058601127083049
+    second: BossJuego_30
+  - first:
+      213: -6634134600763221031
+    second: BossJuego_31
+  - first:
+      213: 8689714029538794085
+    second: BossJuego_32
+  - first:
+      213: 2130674732781948633
+    second: BossJuego_33
+  - first:
+      213: 1671600435710477465
+    second: BossJuego_34
+  - first:
+      213: -8913049033697183010
+    second: BossJuego_35
+  - first:
+      213: -3821025254650257903
+    second: BossJuego_36
+  - first:
+      213: 2002306732987815173
+    second: BossJuego_37
+  - first:
+      213: -6531793842199552630
+    second: BossJuego_38
+  - first:
+      213: 856864690812471276
+    second: BossJuego_39
+  - first:
+      213: -6219894925198472225
+    second: BossJuego_40
+  - first:
+      213: 7297920107455007484
+    second: BossJuego_41
+  - first:
+      213: -7099020216940290110
+    second: BossJuego_42
+  - first:
+      213: -8122950413232381565
+    second: BossJuego_43
+  - first:
+      213: 4516131545723962480
+    second: BossJuego_44
+  - first:
+      213: -2887379413863076922
+    second: BossJuego_45
+  - first:
+      213: -1308875761914045926
+    second: BossJuego_46
+  - first:
+      213: 4142089372796079138
+    second: BossJuego_47
+  - first:
+      213: 2628783596530592139
+    second: BossJuego_48
+  - first:
+      213: -7182908613200386829
+    second: BossJuego_49
+  - first:
+      213: -7461245138944715073
+    second: BossJuego_50
+  - first:
+      213: 7075901471530578844
+    second: BossJuego_51
+  - first:
+      213: 9062843161645867746
+    second: BossJuego_52
+  - first:
+      213: 7918290857005116083
+    second: BossJuego_53
+  - first:
+      213: 8978761772069092985
+    second: BossJuego_54
+  - first:
+      213: 4074847965649201743
+    second: BossJuego_55
+  - first:
+      213: 2467329817143130888
+    second: BossJuego_56
+  - first:
+      213: -4545079453131147476
+    second: BossJuego_57
+  - first:
+      213: -2498467136749695158
+    second: BossJuego_58
+  - first:
+      213: -4221027531366128875
+    second: BossJuego_59
+  - first:
+      213: -8341283630088391946
+    second: BossJuego_60
+  - first:
+      213: -6765050324409032389
+    second: BossJuego_61
+  - first:
+      213: 9091189667130583602
+    second: BossJuego_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossJuego_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7cae4724df9dc10800000000000000
+      internalID: 2078971164879407021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a93be73de5a68a60800000000000000
+      internalID: 7676005053163583906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87557c36e957d220800000000000000
+      internalID: 2510574162674014093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a724022b67a173bb0800000000000000
+      internalID: -4956463767801019782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d69cc283236e830800000000000000
+      internalID: 4100019727618370883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba3f4db1e50b97d0800000000000000
+      internalID: -2910726267063027012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57df85a123460c310800000000000000
+      internalID: 1423247648602258805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79e06b12e0f8f7e0800000000000000
+      internalID: -1731369202811344515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af5500ac06edf230800000000000000
+      internalID: 3674345812902895520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_9
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8bc1ff4ef9eb550800000000000000
+      internalID: 6178551544680331495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_10
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473a47fc3ba4d7a90800000000000000
+      internalID: -7314608083639688332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_11
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3385c129bc9775f10800000000000000
+      internalID: 2258407653386246195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_12
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac095cbed0a41020800000000000000
+      internalID: 2311649387251043491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_13
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61670f9fc3f35ed0800000000000000
+      internalID: -2426327701170724499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_14
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72a91b6d6987ba20800000000000000
+      internalID: 3078079973372306045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_15
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976e5ef87c4c8d230800000000000000
+      internalID: 3663894658257643129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_16
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a4eaf520fd0beb0800000000000000
+      internalID: -4706016409313981869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_17
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a529e8034d4ec60800000000000000
+      internalID: 7846629755801721452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_18
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7621ade94c1fbf0800000000000000
+      internalID: -292236314259855434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_19
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323a6116801f6eda0800000000000000
+      internalID: -5915776042213661917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_20
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27a0f3ed753a9f70800000000000000
+      internalID: 9194720404041672490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_21
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c514ceba5b57770800000000000000
+      internalID: 8607986012796312672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_22
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83318bcb130858e30800000000000000
+      internalID: 4505147953361982264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_23
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18444a6cb4e4ca680800000000000000
+      internalID: -8742526689270807423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_24
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b828be003521b5b00800000000000000
+      internalID: 818267905004896907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_25
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7743b85c3a9834e0800000000000000
+      internalID: -2001680450389325956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_26
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd119d1bda3d73c0800000000000000
+      internalID: -4360264151456473676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_27
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977e20e6cf93132a0800000000000000
+      internalID: -6759557809366177927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_28
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fce4fca27590cbe0800000000000000
+      internalID: -1459001959507497736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_29
+      rect:
+        serializedVersion: 2
+        x: 7424
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552a11866184640a0800000000000000
+      internalID: -6897746518198869419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_30
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cfd780274519410800000000000000
+      internalID: 1482058601127083049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_31
+      rect:
+        serializedVersion: 2
+        x: 7936
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db5161dab1dee3a0800000000000000
+      internalID: -6634134600763221031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_32
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a536aaed0189870800000000000000
+      internalID: 8689714029538794085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_33
+      rect:
+        serializedVersion: 2
+        x: 8448
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de4e53716da19d10800000000000000
+      internalID: 2130674732781948633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_34
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99449e06db7b23710800000000000000
+      internalID: 1671600435710477465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_35
+      rect:
+        serializedVersion: 2
+        x: 8960
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda37d0902d7e4480800000000000000
+      internalID: -8913049033697183010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_36
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e56ca86cdf8fac0800000000000000
+      internalID: -3821025254650257903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_37
+      rect:
+        serializedVersion: 2
+        x: 9472
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5059c1f6d5f99cb10800000000000000
+      internalID: 2002306732987815173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_38
+      rect:
+        serializedVersion: 2
+        x: 9728
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d9c918b186a55a0800000000000000
+      internalID: -6531793842199552630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_39
+      rect:
+        serializedVersion: 2
+        x: 9984
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7c37c75e134eb00800000000000000
+      internalID: 856864690812471276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_40
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb4a4b158e7ea9a0800000000000000
+      internalID: -6219894925198472225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_41
+      rect:
+        serializedVersion: 2
+        x: 10496
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa4904fbab674560800000000000000
+      internalID: 7297920107455007484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_42
+      rect:
+        serializedVersion: 2
+        x: 10752
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf15f399b63b7d90800000000000000
+      internalID: -7099020216940290110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_43
+      rect:
+        serializedVersion: 2
+        x: 11008
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381eb2be2ab754f80800000000000000
+      internalID: -8122950413232381565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_44
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07400dd96b58cae30800000000000000
+      internalID: 4516131545723962480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_45
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb6ae898b7fde7d0800000000000000
+      internalID: -2887379413863076922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_46
+      rect:
+        serializedVersion: 2
+        x: 11776
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a9ef3ed60f5dde0800000000000000
+      internalID: -1308875761914045926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_47
+      rect:
+        serializedVersion: 2
+        x: 12032
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c4e6db658ab7930800000000000000
+      internalID: 4142089372796079138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_48
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89649ec0c05b7420800000000000000
+      internalID: 2628783596530592139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_49
+      rect:
+        serializedVersion: 2
+        x: 12544
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4e8184cae215c90800000000000000
+      internalID: -7182908613200386829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_50
+      rect:
+        serializedVersion: 2
+        x: 12800
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb61717d315547890800000000000000
+      internalID: -7461245138944715073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_51
+      rect:
+        serializedVersion: 2
+        x: 13056
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c937e3c06e6a23260800000000000000
+      internalID: 7075901471530578844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_52
+      rect:
+        serializedVersion: 2
+        x: 13312
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2eaf8a6dfa5cd70800000000000000
+      internalID: 9062843161645867746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_53
+      rect:
+        serializedVersion: 2
+        x: 13568
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba6300e49b63ed60800000000000000
+      internalID: 7918290857005116083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_54
+      rect:
+        serializedVersion: 2
+        x: 13824
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ef80b9248fa9c70800000000000000
+      internalID: 8978761772069092985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_55
+      rect:
+        serializedVersion: 2
+        x: 14080
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a6e32a2a4cc8830800000000000000
+      internalID: 4074847965649201743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_56
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bbb8e6567bd3220800000000000000
+      internalID: 2467329817143130888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_57
+      rect:
+        serializedVersion: 2
+        x: 14592
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27f0387152ace0c0800000000000000
+      internalID: -4545079453131147476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_58
+      rect:
+        serializedVersion: 2
+        x: 14848
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f0c076069a35dd0800000000000000
+      internalID: -2498467136749695158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_59
+      rect:
+        serializedVersion: 2
+        x: 15104
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51327cdf2d5eb65c0800000000000000
+      internalID: -4221027531366128875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_60
+      rect:
+        serializedVersion: 2
+        x: 15360
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2fcc18bbecd3c80800000000000000
+      internalID: -8341283630088391946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossJuego_61
+      rect:
+        serializedVersion: 2
+        x: 15616
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3165fd9296bd12a0800000000000000
+      internalID: -6765050324409032389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d8768f8b98ee43d4caa08fd59b87fc00
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BossJuego_0: 2078971164879407021
+      BossJuego_1: 7676005053163583906
+      BossJuego_10: -7314608083639688332
+      BossJuego_11: 2258407653386246195
+      BossJuego_12: 2311649387251043491
+      BossJuego_13: -2426327701170724499
+      BossJuego_14: 3078079973372306045
+      BossJuego_15: 3663894658257643129
+      BossJuego_16: -4706016409313981869
+      BossJuego_17: 7846629755801721452
+      BossJuego_18: -292236314259855434
+      BossJuego_19: -5915776042213661917
+      BossJuego_2: 2510574162674014093
+      BossJuego_20: 9194720404041672490
+      BossJuego_21: 8607986012796312672
+      BossJuego_22: 4505147953361982264
+      BossJuego_23: -8742526689270807423
+      BossJuego_24: 818267905004896907
+      BossJuego_25: -2001680450389325956
+      BossJuego_26: -4360264151456473676
+      BossJuego_27: -6759557809366177927
+      BossJuego_28: -1459001959507497736
+      BossJuego_29: -6897746518198869419
+      BossJuego_3: -4956463767801019782
+      BossJuego_30: 1482058601127083049
+      BossJuego_31: -6634134600763221031
+      BossJuego_32: 8689714029538794085
+      BossJuego_33: 2130674732781948633
+      BossJuego_34: 1671600435710477465
+      BossJuego_35: -8913049033697183010
+      BossJuego_36: -3821025254650257903
+      BossJuego_37: 2002306732987815173
+      BossJuego_38: -6531793842199552630
+      BossJuego_39: 856864690812471276
+      BossJuego_4: 4100019727618370883
+      BossJuego_40: -6219894925198472225
+      BossJuego_41: 7297920107455007484
+      BossJuego_42: -7099020216940290110
+      BossJuego_43: -8122950413232381565
+      BossJuego_44: 4516131545723962480
+      BossJuego_45: -2887379413863076922
+      BossJuego_46: -1308875761914045926
+      BossJuego_47: 4142089372796079138
+      BossJuego_48: 2628783596530592139
+      BossJuego_49: -7182908613200386829
+      BossJuego_5: -2910726267063027012
+      BossJuego_50: -7461245138944715073
+      BossJuego_51: 7075901471530578844
+      BossJuego_52: 9062843161645867746
+      BossJuego_53: 7918290857005116083
+      BossJuego_54: 8978761772069092985
+      BossJuego_55: 4074847965649201743
+      BossJuego_56: 2467329817143130888
+      BossJuego_57: -4545079453131147476
+      BossJuego_58: -2498467136749695158
+      BossJuego_59: -4221027531366128875
+      BossJuego_6: 1423247648602258805
+      BossJuego_60: -8341283630088391946
+      BossJuego_61: -6765050324409032389
+      BossJuego_7: -1731369202811344515
+      BossJuego_8: 3674345812902895520
+      BossJuego_9: 6178551544680331495
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

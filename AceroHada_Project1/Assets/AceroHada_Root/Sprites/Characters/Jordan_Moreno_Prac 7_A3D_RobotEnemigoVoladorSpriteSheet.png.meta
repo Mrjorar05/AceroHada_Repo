@@ -1,0 +1,1049 @@
+fileFormatVersion: 2
+guid: da34642b07c699a47bb0ff9a51be335d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4072757668090657166
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_0
+  - first:
+      213: 2847007050420500990
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_1
+  - first:
+      213: -470585691473053515
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_2
+  - first:
+      213: -7977058501803630155
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_3
+  - first:
+      213: -8128432181749884929
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_4
+  - first:
+      213: 4496069160813487096
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_5
+  - first:
+      213: -2187403065506407638
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_6
+  - first:
+      213: 5156863427569072036
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_7
+  - first:
+      213: 3316989834432294794
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_8
+  - first:
+      213: 1664685574461433293
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_9
+  - first:
+      213: 3628536746928016824
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_10
+  - first:
+      213: -3058192069134516125
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_11
+  - first:
+      213: -4509181610830950255
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_12
+  - first:
+      213: -3336398428587311321
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_13
+  - first:
+      213: 3223393795596169950
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_14
+  - first:
+      213: 3239825138281960091
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_15
+  - first:
+      213: 608735302589269893
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_16
+  - first:
+      213: -3235045686533629189
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_17
+  - first:
+      213: 8621458033157525024
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_18
+  - first:
+      213: 1275535893903460497
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_19
+  - first:
+      213: -2855114472071660833
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_20
+  - first:
+      213: -8431778800291875103
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_21
+  - first:
+      213: -3874700362856574423
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_22
+  - first:
+      213: 5788863330967004282
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_23
+  - first:
+      213: 919326716621548757
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_24
+  - first:
+      213: 7416730747355470065
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_25
+  - first:
+      213: 5217055680742040929
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_26
+  - first:
+      213: 415381179361646550
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_27
+  - first:
+      213: 2713161968567855936
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_28
+  - first:
+      213: 5721630943208265626
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_29
+  - first:
+      213: 2718527423040213946
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_30
+  - first:
+      213: 3303082427211154464
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_31
+  - first:
+      213: 1692696630211267693
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_32
+  - first:
+      213: 3858231700077061411
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_33
+  - first:
+      213: 5844788445167152769
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_34
+  - first:
+      213: -4977213750852694048
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_35
+  - first:
+      213: 1619216236936853771
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_36
+  - first:
+      213: -2939725411484747888
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_37
+  - first:
+      213: 4502666428399084034
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_38
+  - first:
+      213: 7130986777236795539
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_39
+  - first:
+      213: 5150627899502352623
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_40
+  - first:
+      213: -8812321400171067509
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_41
+  - first:
+      213: 4853380439047277372
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_42
+  - first:
+      213: 7609223646431479076
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_43
+  - first:
+      213: 6603662265376770600
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_44
+  - first:
+      213: 7224835616821959675
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_45
+  - first:
+      213: 7739570198443905490
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_46
+  - first:
+      213: -6506229517912238717
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_47
+  - first:
+      213: 3774257049865985615
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_48
+  - first:
+      213: 2058982713630691208
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_49
+  - first:
+      213: -6113634617663169889
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_50
+  - first:
+      213: -3475776017117853322
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_51
+  - first:
+      213: 6725764091637694953
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_52
+  - first:
+      213: 4073423379977919095
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_53
+  - first:
+      213: -4041657384434636008
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_54
+  - first:
+      213: 6615174174922906032
+    second: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2764531ba78aa77c0800000000000000
+      internalID: -4072757668090657166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9b85904d9928720800000000000000
+      internalID: 2847007050420500990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8fd5f8ec42879f0800000000000000
+      internalID: -470585691473053515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b12c7f8e8bcb4190800000000000000
+      internalID: -7977058501803630155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7d1f93ff1023f80800000000000000
+      internalID: -8128432181749884929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f360ef941f356e30800000000000000
+      internalID: 4496069160813487096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bd3e35088c4a1e0800000000000000
+      internalID: -2187403065506407638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7357317fbd09740800000000000000
+      internalID: 5156863427569072036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f2be42ea0580e20800000000000000
+      internalID: 3316989834432294794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5ad78c5b62a1710800000000000000
+      internalID: 1664685574461433293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd881f42f62b5230800000000000000
+      internalID: 3628536746928016824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3600250248e1f85d0800000000000000
+      internalID: -3058192069134516125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19092b2373b2c61c0800000000000000
+      internalID: -4509181610830950255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fb1e26e4bb2b1d0800000000000000
+      internalID: -3336398428587311321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed235bd249bcbbc20800000000000000
+      internalID: 3223393795596169950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b925da54ccb26fc20800000000000000
+      internalID: 3239825138281960091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587c2115889a27800800000000000000
+      internalID: 608735302589269893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfad00e861fca13d0800000000000000
+      internalID: -3235045686533629189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02eca48176295a770800000000000000
+      internalID: 8621458033157525024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198406e232d93b110800000000000000
+      internalID: 1275535893903460497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda7713c3889068d0800000000000000
+      internalID: -2855114472071660833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6fee7cadd4cfa80800000000000000
+      internalID: -8431778800291875103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9225bdc8c8c4a3ac0800000000000000
+      internalID: -3874700362856574423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74a29f578c265050800000000000000
+      internalID: 5788863330967004282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dce0c827ca12cc00800000000000000
+      internalID: 919326716621548757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f817d6b1558de660800000000000000
+      internalID: 7416730747355470065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16520102084b66840800000000000000
+      internalID: 5217055680742040929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7db3a5bfab3c500800000000000000
+      internalID: 415381179361646550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b269a7f6617a520800000000000000
+      internalID: 2713161968567855936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97dfc14701576f40800000000000000
+      internalID: 5721630943208265626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab35872b9462ab520800000000000000
+      internalID: 2718527423040213946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02481c197f7e6dd20800000000000000
+      internalID: 3303082427211154464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bb5211cbdb32a8649bc616961a7c9630
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_0: -4072757668090657166
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_1: 2847007050420500990
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_10: 3628536746928016824
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_11: -3058192069134516125
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_12: -4509181610830950255
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_13: -3336398428587311321
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_14: 3223393795596169950
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_15: 3239825138281960091
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_16: 608735302589269893
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_17: -3235045686533629189
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_18: 8621458033157525024
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_19: 1275535893903460497
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_2: -470585691473053515
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_20: -2855114472071660833
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_21: -8431778800291875103
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_22: -3874700362856574423
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_23: 5788863330967004282
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_24: 919326716621548757
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_25: 7416730747355470065
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_26: 5217055680742040929
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_27: 415381179361646550
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_28: 2713161968567855936
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_29: 5721630943208265626
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_3: -7977058501803630155
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_30: 2718527423040213946
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_31: 3303082427211154464
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_4: -8128432181749884929
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_5: 4496069160813487096
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_6: -2187403065506407638
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_7: 5156863427569072036
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_8: 3316989834432294794
+      Jordan_Moreno_Prac 7_A3D_RobotEnemigoVoladorSpriteSheet_9: 1664685574461433293
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
