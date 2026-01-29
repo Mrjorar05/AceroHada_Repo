@@ -1,0 +1,93 @@
+﻿using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class PlayerInteractor : MonoBehaviour
+{
+    [Header("Movement")]
+    public float moveSpeed = 5f;
+    public float crouchSpeedMultiplier = 0.5f;
+    private Animator animator;
+
+    private bool isFacingRight = true;
+    private Rigidbody2D rb;
+    private Vector2 movement;
+    private bool isCrouching;
+    private bool canAttack = true;
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+    }
+
+    void FixedUpdate()
+    {
+        float speed = isCrouching ? moveSpeed * crouchSpeedMultiplier : moveSpeed;
+        rb.linearVelocity = movement * speed;
+        if (movement.x > 0 && !isFacingRight)
+            Flip();
+        else if (movement.x < 0 && isFacingRight)
+            Flip();
+        animator.SetBool("IsWalking", movement.x != 0);
+        animator.SetBool("IsCrounching", isCrouching);
+    }
+
+
+
+   
+    public void OnMovement(InputAction.CallbackContext context)
+    {
+        movement = context.ReadValue<Vector2>();
+        
+      
+    }
+
+    
+    public void OnCrouch(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            isCrouching = true;
+        }
+        else if (context.canceled)
+        {
+            isCrouching = false;
+        }
+    }
+
+    
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if (!context.performed || !canAttack) return;
+
+        canAttack = false;
+        animator.SetTrigger("IsAttacking");
+        Debug.Log("Attack");
+
+       
+        Invoke(nameof(ResetAttack), 0.5f);
+    }
+
+    void ResetAttack()
+    {
+        canAttack = true;
+    }
+
+   
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        if (!context.performed) return;
+
+        Debug.Log("Interact");
+
+        
+    }
+
+    private void Flip()
+    {
+        isFacingRight = !isFacingRight;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
+}
