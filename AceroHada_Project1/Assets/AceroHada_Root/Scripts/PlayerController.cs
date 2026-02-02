@@ -20,14 +20,25 @@ public class PlayerInteractor : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    void FixedUpdate()
+    private void Update()
     {
-        float speed = isCrouching ? moveSpeed * crouchSpeedMultiplier : moveSpeed;
-        rb.linearVelocity = movement * speed;
+        //Gestión de las animaciones
+        AnimationHandler();
+        //Gestión del flip
         if (movement.x > 0 && !isFacingRight)
             Flip();
         else if (movement.x < 0 && isFacingRight)
             Flip();
+    }
+
+    void FixedUpdate()
+    {
+        float speed = isCrouching ? moveSpeed * crouchSpeedMultiplier : moveSpeed;
+        rb.linearVelocity = new Vector2(movement.x * speed, rb.linearVelocity.y);
+    }
+
+    void AnimationHandler()
+    {
         animator.SetBool("IsWalking", movement.x != 0);
         animator.SetBool("IsCrounching", isCrouching);
     }
