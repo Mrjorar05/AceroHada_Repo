@@ -2,215 +2,297 @@ using UnityEngine;
 
 public class GroundEnemmy : MonoBehaviour
 {
-    [Header("Movement Settings")]
-    [SerializeField] private float moveSpeed = 2f;
-    [SerializeField] private float chaseSpeed = 3.5f;
+    [Header("Estadísticas")]
+    [SerializeField] private float maxHealth = 60f;
+    private float currentHealth;
 
-    [Header("Detection Settings")]
-    [SerializeField] private float detectionRange = 8f;
-    [SerializeField] private float attackRange = 1.5f;
-    [SerializeField] private LayerMask playerLayer;
+    [Header("Movimiento")]
+    [SerializeField] private float moveSpeed = 3f;
+    [SerializeField] private float detectionRange = 10f;
+    [SerializeField] private float stopDistance = 0.5f; // Distancia mínima al jugador antes de detenerse
 
-    [Header("Attack Settings")]
+    [Header("Ataque")]
+    [SerializeField] private float attackRange = 2f;
+    [SerializeField] private float attackDamage = 25f;
     [SerializeField] private float attackCooldown = 1.5f;
-    [SerializeField] private int attackDamage = 10;
+    private float lastAttackTime;
 
-    [Header("Patrol Settings")]
-    [SerializeField] private float patrolDistance = 5f;
-    [SerializeField] private float waitTimeAtPoint = 2f;
-
+    [Header("Referencias")]
+    private Transform player;
     private Animator animator;
     private Rigidbody2D rb;
-    private Transform player;
     private SpriteRenderer spriteRenderer;
 
-    private Vector2 startPosition;
-    private Vector2 patrolTarget;
-    private float waitTimer;
-    private float attackTimer;
-    private bool isChasing = false;
+    private bool isDead = false;
     private bool facingRight = true;
-
-    private enum State { Idle, Patrol, Chase, Attack }
-    private State currentState = State.Patrol;
 
     void Start()
     {
+        // Inicializar vida
+        currentHealth = maxHealth;
+
+        // Obtener componentes
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        startPosition = transform.position;
-        SetNewPatrolTarget();
+        // Determinar dirección inicial basada en la escala del sprite
+        facingRight = transform.localScale.x > 0;
 
-        // Buscar al jugador en la escena
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-        if (playerObject != null)
+        // Configurar Rigidbody2D si existe
+        if (rb != null)
         {
-            player = playerObject.transform;
+            rb.gravityScale = 1; // Gravedad normal para 2D
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation; // Evitar rotación
+            rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous; // Mejor detección de colisiones
+        }
+
+        // Encontrar al jugador por tag
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró un objeto con tag 'Player'");
         }
     }
 
     void Update()
     {
-        attackTimer -= Time.deltaTime;
+        if (isDead || player == null) return;
 
-        // Detectar al jugador
-        float distanceToPlayer = player != null ? Vector2.Distance(transform.position, player.position) : float.MaxValue;
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        // Máquina de estados
-        switch (currentState)
-        {
-            case State.Idle:
-                HandleIdleState();
-                break;
-            case State.Patrol:
-                HandlePatrolState(distanceToPlayer);
-                break;
-            case State.Chase:
-                HandleChaseState(distanceToPlayer);
-                break;
-            case State.Attack:
-                HandleAttackState(distanceToPlayer);
-                break;
-        }
-
-        UpdateAnimations();
-    }
-
-    void HandleIdleState()
-    {
-        rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-        waitTimer -= Time.deltaTime;
-
-        if (waitTimer <= 0)
-        {
-            currentState = State.Patrol;
-            SetNewPatrolTarget();
-        }
-    }
-
-    void HandlePatrolState(float distanceToPlayer)
-    {
-        // Si detecta al jugador, cambiar a persecución
+        // Si el jugador está en rango de detección
         if (distanceToPlayer <= detectionRange)
         {
-            currentState = State.Chase;
-            isChasing = true;
+            // Si está en rango de ataque
+            if (distanceToPlayer <= attackRange)
+            {
+                AttackPlayer();
+            }
+            else
+            {
+                // Perseguir al jugador
+                ChasePlayer();
+            }
+        }
+        else
+        {
+            // Idle - no hacer nada
+            SetAnimationState("Idle");
+        }
+    }
+
+    void ChasePlayer()
+    {
+        // Calcular dirección hacia el jugador (solo en X para 2D)
+        float direction = player.position.x - transform.position.x;
+        float distance = Mathf.Abs(direction);
+
+        // Si está muy cerca, detenerse
+        if (distance <= stopDistance)
+        {
+            if (rb != null)
+            {
+                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            }
+            SetAnimationState("Idle");
             return;
         }
 
-        // Patrullar
-        Vector2 direction = (patrolTarget - (Vector2)transform.position).normalized;
-        rb.linearVelocity = new Vector2(direction.x * moveSpeed, rb.linearVelocity.y);
-
-        FlipSprite(direction.x);
-
-        // Si llegó al punto de patrulla
-        if (Vector2.Distance(transform.position, patrolTarget) < 0.5f)
-        {
-            currentState = State.Idle;
-            waitTimer = waitTimeAtPoint;
-        }
-    }
-
-    void HandleChaseState(float distanceToPlayer)
-    {
-        // Si el jugador está en rango de ataque
-        if (distanceToPlayer <= attackRange)
-        {
-            currentState = State.Attack;
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-            return;
-        }
-
-        // Si el jugador se alejó mucho, volver a patrullar
-        if (distanceToPlayer > detectionRange * 1.5f)
-        {
-            currentState = State.Patrol;
-            isChasing = false;
-            SetNewPatrolTarget();
-            return;
-        }
-
-        // Perseguir al jugador
-        Vector2 direction = (player.position - transform.position).normalized;
-        rb.linearVelocity = new Vector2(direction.x * chaseSpeed, rb.linearVelocity.y);
-
-        FlipSprite(direction.x);
-    }
-
-    void HandleAttackState(float distanceToPlayer)
-    {
-        rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-
-        // Mirar hacia el jugador
-        Vector2 direction = (player.position - transform.position).normalized;
-        FlipSprite(direction.x);
-
-        // Atacar si el cooldown terminó
-        if (attackTimer <= 0)
-        {
-            Attack();
-            attackTimer = attackCooldown;
-        }
-
-        // Si el jugador se alejó, volver a perseguir
-        if (distanceToPlayer > attackRange * 1.2f)
-        {
-            currentState = State.Chase;
-        }
-    }
-
-    void Attack()
-    {
-        // Aquí puedes agregar la lógica de daño al jugador
-        // Por ejemplo, usando un Collider2D o Raycast
-        Debug.Log("Enemigo ataca!");
-
-        // Ejemplo: detectar jugador con overlap circle
-        Collider2D hitPlayer = Physics2D.OverlapCircle(transform.position, attackRange, playerLayer);
-        if (hitPlayer != null)
-        {
-            // Aquí aplicarías daño al jugador
-            // hitPlayer.GetComponent<PlayerHealth>()?.TakeDamage(attackDamage);
-        }
-    }
-
-    void SetNewPatrolTarget()
-    {
-        float randomX = Random.Range(-patrolDistance, patrolDistance);
-        patrolTarget = startPosition + new Vector2(randomX, 0);
-    }
-
-    void FlipSprite(float direction)
-    {
+        // Voltear el sprite según la dirección
         if (direction > 0 && !facingRight)
         {
-            facingRight = true;
-            spriteRenderer.flipX = false;
+            Flip();
         }
         else if (direction < 0 && facingRight)
         {
-            facingRight = false;
-            spriteRenderer.flipX = true;
+            Flip();
+        }
+
+        // Moverse hacia el jugador
+        if (rb != null)
+        {
+            Vector2 movement = new Vector2(Mathf.Sign(direction) * moveSpeed, rb.linearVelocity.y);
+            rb.linearVelocity = movement;
+        }
+        else
+        {
+            Vector2 movement = new Vector2(Mathf.Sign(direction) * moveSpeed * Time.deltaTime, 0);
+            transform.position += (Vector3)movement;
+        }
+
+        // Activar animación de caminar
+        SetAnimationState("Walk");
+    }
+
+    void AttackPlayer()
+    {
+        // Voltear hacia el jugador
+        float direction = player.position.x - transform.position.x;
+        if (direction > 0 && !facingRight)
+        {
+            Flip();
+        }
+        else if (direction < 0 && facingRight)
+        {
+            Flip();
+        }
+
+        // Detener movimiento
+        if (rb != null)
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        }
+
+        // Verificar si puede atacar (cooldown)
+        if (Time.time >= lastAttackTime + attackCooldown)
+        {
+            lastAttackTime = Time.time;
+
+            // Activar animación de ataque
+            SetAnimationState("Attack");
+
+            // Aplicar daño al jugador
+            // Envía un mensaje al jugador para que reciba daño
+            player.SendMessage("TakeDamage", attackDamage, SendMessageOptions.DontRequireReceiver);
+        }
+        else
+        {
+            // Esperar en idle mientras está en cooldown
+            SetAnimationState("Idle");
         }
     }
 
-    void UpdateAnimations()
+    public void TakeDamage(float damage)
     {
-        // Actualizar parámetros del Animator
-        animator.SetBool("IsWalking", Mathf.Abs(rb.linearVelocity.x) > 0.1f);
-        animator.SetBool("IsAttacking", currentState == State.Attack);
-        animator.SetBool("Idle", currentState == State.Idle);
+        if (isDead) return;
+
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
     }
 
+    void Die()
+    {
+        isDead = true;
+
+        // Detener movimiento
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.gravityScale = 0;
+        }
+
+        // Activar animación de muerte
+        SetAnimationState("Death");
+
+        // Desactivar colisión
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null)
+        {
+            col.enabled = false;
+        }
+
+        // Desactivar el enemigo después de la animación
+        Destroy(gameObject, 2f);
+    }
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+
+        // Voltear el sprite usando la escala
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
+
+    void SetAnimationState(string state)
+    {
+        if (animator == null)
+        {
+            Debug.LogWarning("No hay Animator en el enemigo");
+            return;
+        }
+
+        // Debug para ver qué estado se está activando
+        // Debug.Log($"Cambiando a estado: {state}");
+
+        // Resetear todos los triggers/bools (solo si existen)
+        if (HasParameter("isWalking"))
+            animator.SetBool("isWalking", false);
+        if (HasParameter("isAttacking"))
+            animator.SetBool("isAttacking", false);
+        if (HasParameter("isDead"))
+            animator.SetBool("isDead", false);
+
+        // Activar el estado correspondiente
+        switch (state)
+        {
+            case "Walk":
+                if (HasParameter("isWalking"))
+                {
+                    animator.SetBool("isWalking", true);
+                }
+                else
+                {
+                    Debug.LogWarning("El parámetro 'isWalking' no existe en el Animator");
+                }
+                break;
+            case "Attack":
+                if (HasParameter("isAttacking"))
+                {
+                    animator.SetBool("isAttacking", true);
+                }
+                else
+                {
+                    Debug.LogWarning("El parámetro 'isAttacking' no existe en el Animator");
+                }
+                break;
+            case "Death":
+                if (HasParameter("isDead"))
+                {
+                    animator.SetBool("isDead", true);
+                }
+                else
+                {
+                    Debug.LogWarning("El parámetro 'isDead' no existe en el Animator");
+                }
+                break;
+            case "Idle":
+                // Ya están todos en false
+                break;
+        }
+    }
+
+    // Verificar si un parámetro existe en el Animator
+    bool HasParameter(string paramName)
+    {
+        if (animator == null) return false;
+
+        foreach (AnimatorControllerParameter param in animator.parameters)
+        {
+            if (param.name == paramName)
+                return true;
+        }
+        return false;
+    }
+
+    // Visualizar rangos en el editor
     void OnDrawGizmosSelected()
     {
-        // Visualizar rangos en el editor
+        // Rango de detección (amarillo)
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
 
+        // Rango de ataque (rojo)
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }

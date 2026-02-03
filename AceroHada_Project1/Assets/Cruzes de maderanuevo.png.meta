@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f1c5c67a67672c14d8ea91296cb18a77
+guid: a41a0860e5858b24da98cbc112d4f6ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5795742287359987603
-    second: Background videojuego_0
+      213: -4053587514564809472
+    second: Cruzes de maderanuevo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,10 +72,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background videojuego_0
+      name: Cruzes de maderanuevo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 640
-        height: 360
+        width: 127
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39f4dc737ec9e6050800000000000000
-      internalID: 5795742287359987603
+      spriteID: 00de760e1a3ceb7c0800000000000000
+      internalID: -4053587514564809472
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background videojuego_0: 5795742287359987603
+      Cruzes de maderanuevo_0: -4053587514564809472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
