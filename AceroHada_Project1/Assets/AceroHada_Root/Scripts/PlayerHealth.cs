@@ -25,8 +25,7 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("El jugador ha muerto");
-        // Aquí puedes añadir lógica de muerte del jugador
-        // Por ejemplo: reiniciar nivel, mostrar pantalla de Game Over, etc.
+       
     }
 
     public float GetCurrentHealth()
