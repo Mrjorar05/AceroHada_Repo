@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.Build;
+using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
@@ -57,27 +58,37 @@ public class GroundEnemy : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Vector2 direccionDamage = new Vector2(transform.position.x, 0);
+           
+        }
+    }
+
     void Move()
     {
         isAttacking = false;
 
         rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, rb.linearVelocity.y);
 
-        animator.SetBool("isWalking", true);
-        animator.SetBool("isAttacking", false);
+        animator.SetBool("IsWalking", true);
+        animator.SetBool("IsAttacking", false);
     }
 
     void StartAttack()
     {
+        Debug.Log("Ataque entra");
         rb.linearVelocity = Vector2.zero;
 
         if (!isAttacking)
         {
             isAttacking = true;
-            animator.SetBool("isAttacking", true);
+            animator.SetBool("IsAttacking", true);
         }
 
-        animator.SetBool("isWalking", false);
+        animator.SetBool("IsWalking", false);
     }
 
     // LLAMAR DESDE UN ANIMATION EVENT
@@ -112,9 +123,9 @@ public class GroundEnemy : MonoBehaviour
         isDead = true;
         rb.linearVelocity = Vector2.zero;
 
-        animator.SetBool("isDead", true);
-        animator.SetBool("isWalking", false);
-        animator.SetBool("isAttacking", false);
+        animator.SetBool("IsDead", true);
+        animator.SetBool("IsWalking", false);
+        animator.SetBool("IsAttacking", false);
 
         rb.simulated = false;
         GetComponent<Collider2D>().enabled = false;

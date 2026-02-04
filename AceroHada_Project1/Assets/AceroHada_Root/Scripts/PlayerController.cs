@@ -13,7 +13,7 @@ public class PlayerInteractor : MonoBehaviour
     private Vector2 movement;
     private bool isCrouching;
     private bool canAttack = true;
-
+    private bool Damage;
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -29,6 +29,7 @@ public class PlayerInteractor : MonoBehaviour
             Flip();
         else if (movement.x < 0 && isFacingRight)
             Flip();
+        animator.SetBool("Damage", Damage);
     }
 
     void FixedUpdate()
@@ -45,7 +46,20 @@ public class PlayerInteractor : MonoBehaviour
 
 
 
-   
+   public void GetDamage(Vector2 direccion,int cantGetDamage)
+    {
+        if (!Damage)
+        {
+            Damage = true;
+            Vector2 rebote = new Vector2(transform.position.x - direccion.x, 1).normalized;
+            rb.AddForce(rebote, ForceMode2D.Impulse);
+        }
+    }
+
+    public void DesactiveDamage()
+    {
+        Damage = false;
+    }
     public void OnMovement(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
