@@ -19,7 +19,7 @@ public class GroundEnemy : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private Transform player;
-
+    
     private int currentHealth;
     private Rigidbody2D rb;
     private Animator animator;
@@ -63,7 +63,7 @@ public class GroundEnemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Vector2 direccionDamage = new Vector2(transform.position.x, 0);
-           
+           collision.gameObject.GetComponent<PlayerInteractor>().GetDamage(direccionDamage,1);
         }
     }
 

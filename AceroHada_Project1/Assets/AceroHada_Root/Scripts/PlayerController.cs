@@ -7,13 +7,15 @@ public class PlayerInteractor : MonoBehaviour
     public float moveSpeed = 5f;
     public float crouchSpeedMultiplier = 0.5f;
     private Animator animator;
-
+    public float fuerzaRebote = 6;
+    public int vida = 100;
     private bool isFacingRight = true;
     private Rigidbody2D rb;
     private Vector2 movement;
     private bool isCrouching;
     private bool canAttack = true;
     private bool Damage;
+   public bool Dead;
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,15 +24,17 @@ public class PlayerInteractor : MonoBehaviour
 
     private void Update()
     {
-        //GestiÃ³n de las animaciones
+       
         AnimationHandler();
-        //GestiÃ³n del flip
+       
         if (movement.x > 0 && !isFacingRight)
             Flip();
         else if (movement.x < 0 && isFacingRight)
             Flip();
-        animator.SetBool("Damage", Damage);
+       
+        
     }
+
 
     void FixedUpdate()
     {
@@ -42,6 +46,7 @@ public class PlayerInteractor : MonoBehaviour
     {
         animator.SetBool("IsWalking", movement.x != 0);
         animator.SetBool("IsCrounching", isCrouching);
+       
     }
 
 
@@ -51,8 +56,15 @@ public class PlayerInteractor : MonoBehaviour
         if (!Damage)
         {
             Damage = true;
+            vida -= cantGetDamage;
+            animator.SetTrigger("Damage");
+            if (vida < 0)
+            {
+                Dead = true;
+                animator.SetTrigger("Dead");
+            }
             Vector2 rebote = new Vector2(transform.position.x - direccion.x, 1).normalized;
-            rb.AddForce(rebote, ForceMode2D.Impulse);
+            rb.AddForce(rebote* fuerzaRebote, ForceMode2D.Impulse);
         }
     }
 
