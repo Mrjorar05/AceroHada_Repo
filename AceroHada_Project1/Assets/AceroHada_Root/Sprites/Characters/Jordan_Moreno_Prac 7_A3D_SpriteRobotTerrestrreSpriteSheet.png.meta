@@ -1,0 +1,934 @@
+fileFormatVersion: 2
+guid: 7e0d5b92b035ef7418336f04b6f2e111
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6148957219410125945
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_0
+  - first:
+      213: -2013341332819700148
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_1
+  - first:
+      213: 3389285639686789001
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_2
+  - first:
+      213: 5443923494035638002
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_3
+  - first:
+      213: 2363883573990751065
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_4
+  - first:
+      213: -1671632840923443
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_5
+  - first:
+      213: 5481646198434731428
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_6
+  - first:
+      213: -9109664872070481719
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_7
+  - first:
+      213: -2360458355359622604
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_8
+  - first:
+      213: -4662866695961942710
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_9
+  - first:
+      213: 8999930111291574030
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_10
+  - first:
+      213: 6980440837880657688
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_11
+  - first:
+      213: 1879263961681112303
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_12
+  - first:
+      213: -3813196119101268856
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_13
+  - first:
+      213: 6978010666058396850
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_14
+  - first:
+      213: -7039853393791860627
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_15
+  - first:
+      213: 4995151776989427930
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_16
+  - first:
+      213: 5892543485153419892
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_17
+  - first:
+      213: 6622138401105457948
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_18
+  - first:
+      213: -6206866883470176459
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_19
+  - first:
+      213: -7925879947638477592
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_20
+  - first:
+      213: 5072454676770580537
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_21
+  - first:
+      213: 8640327687501540501
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_22
+  - first:
+      213: -7588785946843339197
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_23
+  - first:
+      213: -6051785135958159620
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_24
+  - first:
+      213: -5364198387968729096
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_25
+  - first:
+      213: 5165195760759962709
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_26
+  - first:
+      213: -55823927835439653
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_27
+  - first:
+      213: 3346477152342474456
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_28
+  - first:
+      213: -3032116479137836160
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_29
+  - first:
+      213: 7589061394685540416
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_30
+  - first:
+      213: 6702931326967968993
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_31
+  - first:
+      213: 2923935145067588202
+    second: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b5cfdccf38aaaa0800000000000000
+      internalID: -6148957219410125945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c469ba599bc2f04e0800000000000000
+      internalID: -2013341332819700148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9871dd30559290f20800000000000000
+      internalID: 3389285639686789001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6c56e1393bc8b40800000000000000
+      internalID: 5443923494035638002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b791e06933ec020800000000000000
+      internalID: 2363883573990751065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc66256a8af0afff0800000000000000
+      internalID: -1671632840923443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5921aac28b21c40800000000000000
+      internalID: 5481646198434731428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8726d5018f39180800000000000000
+      internalID: -9109664872070481719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43adfadc1a7fd3fd0800000000000000
+      internalID: -2360458355359622604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a456038e17b2a4fb0800000000000000
+      internalID: -4662866695961942710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0740e6a0cc26ec70800000000000000
+      internalID: 8999930111291574030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817b18545f18fd060800000000000000
+      internalID: 6980440837880657688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec223bcd9c741a10800000000000000
+      internalID: 1879263961681112303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c1216355ec41bc0800000000000000
+      internalID: -3813196119101268856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b43c4dcabfd6d060800000000000000
+      internalID: 6978010666058396850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60453813aa6d4e90800000000000000
+      internalID: -7039853393791860627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8bd926318525540800000000000000
+      internalID: 4995151776989427930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472ac18641586c150800000000000000
+      internalID: 5892543485153419892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c133d5b4acf86eb50800000000000000
+      internalID: 6622138401105457948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fcf927477ccd9a0800000000000000
+      internalID: -6206866883470176459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eced944e2e910290800000000000000
+      internalID: -7925879947638477592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938ed2c47aaf46640800000000000000
+      internalID: 5072454676770580537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c608cd04c98e770800000000000000
+      internalID: 8640327687501540501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3462de173673fa690800000000000000
+      internalID: -7588785946843339197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe893a8b7db30ca0800000000000000
+      internalID: -6051785135958159620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff9664acf98e85b0800000000000000
+      internalID: -5364198387968729096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c73739d267ea740800000000000000
+      internalID: 5165195760759962709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddc663fe6ca93ff0800000000000000
+      internalID: -55823927835439653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de755a5d33117e20800000000000000
+      internalID: 3346477152342474456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08391678022cbe5d0800000000000000
+      internalID: -3032116479137836160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dadc04f1b121af2478f288818b74b651
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_0: -6148957219410125945
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_1: -2013341332819700148
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_10: 8999930111291574030
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_11: 6980440837880657688
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_12: 1879263961681112303
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_13: -3813196119101268856
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_14: 6978010666058396850
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_15: -7039853393791860627
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_16: 4995151776989427930
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_17: 5892543485153419892
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_18: 6622138401105457948
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_19: -6206866883470176459
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_2: 3389285639686789001
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_20: -7925879947638477592
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_21: 5072454676770580537
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_22: 8640327687501540501
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_23: -7588785946843339197
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_24: -6051785135958159620
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_25: -5364198387968729096
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_26: 5165195760759962709
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_27: -55823927835439653
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_28: 3346477152342474456
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_29: -3032116479137836160
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_3: 5443923494035638002
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_4: 2363883573990751065
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_5: -1671632840923443
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_6: 5481646198434731428
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_7: -9109664872070481719
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_8: -2360458355359622604
+      Jordan_Moreno_Prac 7_A3D_SpriteRobotTerrestrreSpriteSheet_9: -4662866695961942710
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
