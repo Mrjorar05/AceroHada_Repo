@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerInteractor : MonoBehaviour
@@ -22,9 +22,9 @@ public class PlayerInteractor : MonoBehaviour
 
     private void Update()
     {
-        //Gestión de las animaciones
+        //GestiÃ³n de las animaciones
         AnimationHandler();
-        //Gestión del flip
+        //GestiÃ³n del flip
         if (movement.x > 0 && !isFacingRight)
             Flip();
         else if (movement.x < 0 && isFacingRight)
