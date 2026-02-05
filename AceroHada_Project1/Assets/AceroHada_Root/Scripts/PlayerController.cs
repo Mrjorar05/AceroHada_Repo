@@ -65,6 +65,7 @@ public class PlayerInteractor : MonoBehaviour
             }
             Vector2 rebote = new Vector2(transform.position.x - direccion.x, 1).normalized;
             rb.AddForce(rebote* fuerzaRebote, ForceMode2D.Impulse);
+           
         }
     }
 
