@@ -60,6 +60,10 @@ public class PlayerInteractor : MonoBehaviour
             animator.SetTrigger("Damage");
             if (vida < 0)
             {
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.GameOver();
+                }
                 Dead = true;
                 animator.SetTrigger("Dead");
             }

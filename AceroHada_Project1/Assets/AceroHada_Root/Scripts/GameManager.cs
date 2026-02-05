@@ -1,39 +1,82 @@
-using UnityEditor.Search;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
+
+
+using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    //Declaracion Singleton
-    private static GameManager instance; //Definicion de la fortaleza de datos
-    public static GameManager Instance
-    {
-        get
-        {
-            if (instance == null) Debug.Log("No hay Game Manager");
-            return instance;
-        }
-    }
-    //Fin del singleton
+    public static GameManager instance;
 
-    //TODA LAS VARIABLES DE LA FORTALEZA DEBAN SER PUBLICAS
-    public float playerHealth;
-    public float maxHealth = 100;
-    public int playerPoints;
+    public GameObject gameOverPanel;
+    public TextMeshProUGUI gameOverText;
+    public Button reiniciarButton;
+    public Button menuButton;
+    
+    private bool gameOverActivo = false;
 
-    private void Awake()
+  void Awake()
     {
-        if (instance == null) 
+        if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
         }
     }
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        if (gameOverPanel != null) 
+            gameOverPanel.SetActive(false);
+        if (reiniciarButton != null)
+            reiniciarButton.onClick.AddListener(ReiniciarEscena);
+        if (menuButton != null)
+            menuButton.onClick.AddListener(IrAlMenu);
+    }
 
+    // Update is called once per frame
+    void Update()
+    {
+        if (gameOverActivo)
+        {
+            ReiniciarEscena();
+        }
+        if (Input.GetKeyUp(KeyCode.Escape) || Input.GetKeyUp(KeyCode.M))
+        {
+            IrAlMenu();
+        }
+    }
+public void GameOver()
+    {
+        if (gameOverActivo) return;
 
+        gameOverActivo=true;
+
+        if(gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+        }
+        if(gameOverText  != null) 
+        {
+            gameOverText.text = "GAME OVER\n\nR - Reiniciar\nESC - Menu Principal";
+        }
+    }
+    
+    public void ReiniciarEscena()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    public void IrAlMenu()
+    {
+        Time.timeScale=1f;
+        SceneManager.LoadScene("Menu");
+    }
 }
 
 
