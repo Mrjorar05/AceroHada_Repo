@@ -4,11 +4,10 @@ public class Rocket : MonoBehaviour
 {
     [Header("Rocket Settings")]
     public float speed = 8f;
-    public int damage = 20;
+    public int damage = 3;
     public float lifeTime = 5f;
 
-    private Transform target;
-    private Vector2 direction;
+    private Vector2 direction; // Dirección fija del cohete
 
     void Start()
     {
@@ -18,44 +17,32 @@ public class Rocket : MonoBehaviour
 
     void Update()
     {
-        if (target == null)
-        {
-            // Si el player desaparece, el cohete sigue recto
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
-            return;
-        }
-
-        // Calcular dirección hacia el objetivo
-        direction = (target.position - transform.position).normalized;
-
-        // Mover el cohete
-        transform.Translate(direction * speed * Time.deltaTime);
-
-        // Rotar el cohete hacia el objetivo (opcional)
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        // Mover el cohete en línea recta
+        transform.position += (Vector3)direction * speed * Time.deltaTime;
     }
 
-    public void SetTarget(Transform newTarget)
+    // El Boss llama a esto para indicar hacia dónde disparar
+    public void SetDirection(bool facingLeft)
     {
-        target = newTarget;
+        direction = facingLeft ? Vector2.left : Vector2.right;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            PlayerInteractor playerHealth = collision.GetComponent<PlayerInteractor>();
+            PlayerInteractor player = collision.GetComponent<PlayerInteractor>();
 
-            if (playerHealth != null)
+            if (player != null)
             {
-                playerHealth.GetDamage(damage);
+                // Usamos la posición del cohete para el knockback
+                player.GetDamage(transform.position, damage);
             }
 
             Destroy(gameObject);
         }
 
-        // Si choca con el suelo, paredes, etc.
+        // Si choca con el suelo o paredes
         if (collision.CompareTag("Ground") || collision.CompareTag("Wall"))
         {
             Destroy(gameObject);

@@ -173,7 +173,9 @@ public class BossController : MonoBehaviour
         Rocket rocketScript = rocket.GetComponent<Rocket>();
         if (rocketScript != null)
         {
-            rocketScript.SetTarget(player);
+            bool facingLeft = spriteRenderer.flipX;
+            rocketScript.SetDirection(facingLeft);
+
         }
 
         Debug.Log("Boss disparo un cohete!");
