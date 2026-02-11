@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: cb0d2ce26562ecd419711edf7e916e77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3245111906096232674
+    second: AE03_Atlas_(ELENALUQUE)_0
+  - first:
+      213: 7911929546342921585
+    second: AE03_Atlas_(ELENALUQUE)_1
+  - first:
+      213: -5013191871702830235
+    second: AE03_Atlas_(ELENALUQUE)_2
+  - first:
+      213: -3929219091929244654
+    second: AE03_Atlas_(ELENALUQUE)_3
+  - first:
+      213: -4017616045712833523
+    second: AE03_Atlas_(ELENALUQUE)_4
+  - first:
+      213: -9147637058989521986
+    second: AE03_Atlas_(ELENALUQUE)_5
+  - first:
+      213: -5999215988421345079
+    second: AE03_Atlas_(ELENALUQUE)_6
+  - first:
+      213: -1116871294209002650
+    second: AE03_Atlas_(ELENALUQUE)_7
+  - first:
+      213: 246348697065947707
+    second: AE03_Atlas_(ELENALUQUE)_8
+  - first:
+      213: -248591824171965839
+    second: AE03_Atlas_(ELENALUQUE)_9
+  - first:
+      213: 4525877852915612038
+    second: AE03_Atlas_(ELENALUQUE)_10
+  - first:
+      213: 2866258799610907504
+    second: AE03_Atlas_(ELENALUQUE)_11
+  - first:
+      213: 1811838875972424177
+    second: AE03_Atlas_(ELENALUQUE)_12
+  - first:
+      213: -4101243858522436381
+    second: AE03_Atlas_(ELENALUQUE)_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 327
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e174ebc2aeb07f2d0800000000000000
+      internalID: -3245111906096232674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 327
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175ffa1d002dccd60800000000000000
+      internalID: 7911929546342921585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 331
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563f640cd809d6ab0800000000000000
+      internalID: -5013191871702830235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 327
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cdfd4cd0c9879c0800000000000000
+      internalID: -3929219091929244654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 327
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04806f1e7f8e38c0800000000000000
+      internalID: -4017616045712833523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 219
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb30bb4af801d0180800000000000000
+      internalID: -9147637058989521986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 86
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c04d4ff7d08ebca0800000000000000
+      internalID: -5999215988421345079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_7
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 0
+        width: 85
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66377d0b9731080f0800000000000000
+      internalID: -1116871294209002650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 263
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b320f73b5d43b6300800000000000000
+      internalID: 246348697065947707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 264
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172e9229d03dc8cf0800000000000000
+      internalID: -248591824171965839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 199
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689b7d79de52fce30800000000000000
+      internalID: 4525877852915612038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 136
+        width: 59
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b4521313ff6c720800000000000000
+      internalID: 2866258799610907504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_12
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 6
+        width: 106
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f15490bbd1f42910800000000000000
+      internalID: 1811838875972424177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AE03_Atlas_(ELENALUQUE)_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 8
+        width: 183
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec8483a0747517c0800000000000000
+      internalID: -4101243858522436381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AE03_Atlas_(ELENALUQUE)_0: -3245111906096232674
+      AE03_Atlas_(ELENALUQUE)_1: 7911929546342921585
+      AE03_Atlas_(ELENALUQUE)_10: 4525877852915612038
+      AE03_Atlas_(ELENALUQUE)_11: 2866258799610907504
+      AE03_Atlas_(ELENALUQUE)_12: 1811838875972424177
+      AE03_Atlas_(ELENALUQUE)_13: -4101243858522436381
+      AE03_Atlas_(ELENALUQUE)_2: -5013191871702830235
+      AE03_Atlas_(ELENALUQUE)_3: -3929219091929244654
+      AE03_Atlas_(ELENALUQUE)_4: -4017616045712833523
+      AE03_Atlas_(ELENALUQUE)_5: -9147637058989521986
+      AE03_Atlas_(ELENALUQUE)_6: -5999215988421345079
+      AE03_Atlas_(ELENALUQUE)_7: -1116871294209002650
+      AE03_Atlas_(ELENALUQUE)_8: 246348697065947707
+      AE03_Atlas_(ELENALUQUE)_9: -248591824171965839
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9008710046315282558}
   - component: {fileID: 7564712756891101467}
   - component: {fileID: 4263070604134642230}
+  - component: {fileID: 4714368892726125020}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -203,7 +204,7 @@ Animator:
   m_GameObject: {fileID: 2213146762422246268}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2a6e878cf2f06374dbedc6fd6051d554, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -309,6 +310,19 @@ MonoBehaviour:
   m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &4714368892726125020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2213146762422246268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ae5e85e223f554db51acea6975b1d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalPickups: 0
 --- !u!1 &7332852545804578157
 GameObject:
   m_ObjectHideFlags: 0
