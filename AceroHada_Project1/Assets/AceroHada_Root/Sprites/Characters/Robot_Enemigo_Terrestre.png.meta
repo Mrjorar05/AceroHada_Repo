@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 95fa04609e94f644c8f977115fb8fad5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4471007973577526636
+    second: Robot_Enemigo_Terrestre_0
+  - first:
+      213: -9182454407237350122
+    second: Robot_Enemigo_Terrestre_1
+  - first:
+      213: -3814292505817495878
+    second: Robot_Enemigo_Terrestre_2
+  - first:
+      213: 1788686979125088288
+    second: Robot_Enemigo_Terrestre_3
+  - first:
+      213: -884750878712822367
+    second: Robot_Enemigo_Terrestre_4
+  - first:
+      213: -2751001186373563974
+    second: Robot_Enemigo_Terrestre_5
+  - first:
+      213: 8341603642897917427
+    second: Robot_Enemigo_Terrestre_6
+  - first:
+      213: -4915485663476607933
+    second: Robot_Enemigo_Terrestre_7
+  - first:
+      213: 5059912209345448765
+    second: Robot_Enemigo_Terrestre_8
+  - first:
+      213: 4538711863934349684
+    second: Robot_Enemigo_Terrestre_9
+  - first:
+      213: 6281128487600084858
+    second: Robot_Enemigo_Terrestre_10
+  - first:
+      213: 7437132111036850446
+    second: Robot_Enemigo_Terrestre_11
+  - first:
+      213: 760476642712751565
+    second: Robot_Enemigo_Terrestre_12
+  - first:
+      213: 4103167481555406556
+    second: Robot_Enemigo_Terrestre_13
+  - first:
+      213: 6605890735785329917
+    second: Robot_Enemigo_Terrestre_14
+  - first:
+      213: 5049029452238714405
+    second: Robot_Enemigo_Terrestre_15
+  - first:
+      213: 15442444432819053
+    second: Robot_Enemigo_Terrestre_16
+  - first:
+      213: 8468567192224642008
+    second: Robot_Enemigo_Terrestre_17
+  - first:
+      213: 4866606196287996576
+    second: Robot_Enemigo_Terrestre_18
+  - first:
+      213: 1072365009151178996
+    second: Robot_Enemigo_Terrestre_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d070540163c0e30800000000000000
+      internalID: 4471007973577526636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dc56a0e5e519080800000000000000
+      internalID: -9182454407237350122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab64059cc29e01bc0800000000000000
+      internalID: -3814292505817495878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0201e15a451b2d810800000000000000
+      internalID: 1788686979125088288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a58b9f63cbb8b3f0800000000000000
+      internalID: -884750878712822367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab986851ffa72d9d0800000000000000
+      internalID: -2751001186373563974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5e808415453c370800000000000000
+      internalID: 8341603642897917427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34493f915dfa8cbb0800000000000000
+      internalID: -4915485663476607933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b82b8885b683640800000000000000
+      internalID: 5059912209345448765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47178a3a46ebcfe30800000000000000
+      internalID: 4538711863934349684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a775df3a41d0b2750800000000000000
+      internalID: 6281128487600084858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01a00a5040063760800000000000000
+      internalID: 7437132111036850446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd00e43a71cd8a00800000000000000
+      internalID: 760476642712751565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde4b00c51161f830800000000000000
+      internalID: 4103167481555406556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4478bef96dcab50800000000000000
+      internalID: 6605890735785329917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5267c213981c11640800000000000000
+      internalID: 5049029452238714405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63c1e642dcd63000800000000000000
+      internalID: 15442444432819053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3b3113ef4668570800000000000000
+      internalID: 8468567192224642008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a206771d88a98340800000000000000
+      internalID: 4866606196287996576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemigo_Terrestre_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5376948, y: 0.4309935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8b3005b4ec1ee00800000000000000
+      internalID: 1072365009151178996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ce8e565d1c8a80e4dab928de4e39c78e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5376948118209839,"y":0.4309934973716736},"autoSlicingMethod":0,"spriteAlignment":9,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Robot_Enemigo_Terrestre_0: 4471007973577526636
+      Robot_Enemigo_Terrestre_1: -9182454407237350122
+      Robot_Enemigo_Terrestre_10: 6281128487600084858
+      Robot_Enemigo_Terrestre_11: 7437132111036850446
+      Robot_Enemigo_Terrestre_12: 760476642712751565
+      Robot_Enemigo_Terrestre_13: 4103167481555406556
+      Robot_Enemigo_Terrestre_14: 6605890735785329917
+      Robot_Enemigo_Terrestre_15: 5049029452238714405
+      Robot_Enemigo_Terrestre_16: 15442444432819053
+      Robot_Enemigo_Terrestre_17: 8468567192224642008
+      Robot_Enemigo_Terrestre_18: 4866606196287996576
+      Robot_Enemigo_Terrestre_19: 1072365009151178996
+      Robot_Enemigo_Terrestre_2: -3814292505817495878
+      Robot_Enemigo_Terrestre_3: 1788686979125088288
+      Robot_Enemigo_Terrestre_4: -884750878712822367
+      Robot_Enemigo_Terrestre_5: -2751001186373563974
+      Robot_Enemigo_Terrestre_6: 8341603642897917427
+      Robot_Enemigo_Terrestre_7: -4915485663476607933
+      Robot_Enemigo_Terrestre_8: 5059912209345448765
+      Robot_Enemigo_Terrestre_9: 4538711863934349684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
