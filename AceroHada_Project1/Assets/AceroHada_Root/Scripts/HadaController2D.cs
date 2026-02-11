@@ -104,9 +104,9 @@ public class PlayerController2D : MonoBehaviour
         // Animaciones (si tienes Animator configurado)
         if (animator != null)
         {
-            animator.SetFloat("VelocidadX", Mathf.Abs(movimientoH));
-            animator.SetBool("EnSuelo", enSuelo);
-            animator.SetBool("Volando", volando);
+            animator.SetBool("Jump", !enSuelo);
+            if (movimientoH != 0) animator.SetBool("Walk", true);
+            else animator.SetBool("Walk", false);
         }
     }
 
@@ -114,7 +114,7 @@ public class PlayerController2D : MonoBehaviour
     {
         // Ejecutar animación de ataque
         if (animator != null)
-            animator.SetTrigger("Atacar");
+            animator.SetTrigger("Attack");
 
         // Detectar enemigos en el rango
         Collider2D[] enemigosGolpeados = Physics2D.OverlapCircleAll(puntoAtaque.position, rangoAtaque, capasEnemigos);
