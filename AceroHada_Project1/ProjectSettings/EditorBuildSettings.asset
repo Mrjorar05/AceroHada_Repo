@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/AceroHada_Root/Scenes/SCN_MainMenu.unity
+    guid: d44ebb78dc22f084ca654e4b86bd01e3
+  - enabled: 1
+    path: Assets/AceroHada_Root/Scenes/Elena_Test.unity
+    guid: 7bbe1468806a3644b800c1aab7db2d31
+  - enabled: 1
+    path: Assets/AceroHada_Root/Scenes/ElenaNivel3.unity
+    guid: 89b17668a5e03f248844d092deaf761f
+  - enabled: 1
     path: Assets/AceroHada_Root/Scenes/Jordan_Test.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:

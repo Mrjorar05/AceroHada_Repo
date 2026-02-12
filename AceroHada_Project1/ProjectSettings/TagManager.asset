@@ -9,6 +9,7 @@ TagManager:
   - Damage
   - "Pu\xF1etazo"
   - PickUpFusibles
+  - Pickup
   layers:
   - Default
   - TransparentFX
