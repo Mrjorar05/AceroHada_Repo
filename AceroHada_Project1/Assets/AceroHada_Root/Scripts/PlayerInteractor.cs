@@ -96,8 +96,8 @@ public class PlayerInteractor : MonoBehaviour
     public void OnMovement(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
-        
-      
+        AudioManager.Instance.PlaySFX(2);
+
     }
 
     
@@ -111,6 +111,7 @@ public class PlayerInteractor : MonoBehaviour
         {
             isCrouching = false;
         }
+        AudioManager.Instance.PlaySFX(5);
     }
 
     
@@ -124,6 +125,7 @@ public class PlayerInteractor : MonoBehaviour
 
        
         Invoke(nameof(ResetAttack), 0.5f);
+        AudioManager.Instance.PlaySFX(3);
     }
 
     void ResetAttack()

@@ -22,6 +22,7 @@ public class HadaPlatform : MonoBehaviour
     void Update()
     {
         PlatformMovement();
+        
     }
 
     void PlatformMovement()
