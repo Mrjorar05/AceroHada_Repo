@@ -2,29 +2,21 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    //Declaracion Singleton
-    private static AudioManager instance; //Definicion de la fortaleza de datos
-    public static AudioManager Instance
-    {
-        get
-        {
-            if (instance == null) Debug.Log("No hay Game Manager");
-            return instance;
-        }
-    }
-    //Fin del singleton
+    public static AudioManager Instance;
 
-    //TODA LAS VARIABLES D ELA FORTALEZA DEBAN SER PUBLICAS
-    public AudioSource musicSource;
-    public AudioSource sfxSource;
-    public AudioClip[] musicLibrary;
-    public AudioClip[] sfxLibrary;
+    [Header("Audio Source References")]
+    [SerializeField] AudioSource musicSource;
+    [SerializeField] AudioSource sfxSource;
+
+    [Header("Audio Clip Arrays")]
+    public AudioClip[] musicList;
+    public AudioClip[] sfxListList;
 
     private void Awake()
     {
-        if (instance != null)
+        if(Instance == null)
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -32,29 +24,15 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    public void PlayMusic(int musicToPlay)
+
+    public void PlayMusic(int musicIndex)
     {
-        musicSource.clip = musicLibrary[musicToPlay];
+        musicSource.clip = musicList[musicIndex];
         musicSource.Play();
     }
-    public void PauseMusic()
-    {
-        musicSource.Pause();
-    }
 
-    public void StopMusic()
+    public void PlaySFX(int sfxIndex)
     {
-        musicSource.Stop();
+        sfxSource.PlayOneShot(sfxListList[sfxIndex]);
     }
-
-    public void ResumeMusic()
-    {
-        musicSource.UnPause();
-    } 
-
-    public void PlaySFX(int sfxToPlay)
-    {
-        sfxSource.PlayOneShot(sfxLibrary[sfxToPlay]);
-    }
-    //Prueba
 }

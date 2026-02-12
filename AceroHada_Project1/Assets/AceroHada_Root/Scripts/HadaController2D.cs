@@ -64,7 +64,9 @@ public class PlayerController2D : MonoBehaviour
         // Saltar
         if (Input.GetKeyDown(KeyCode.Space) && enSuelo && !volando)
         {
+          
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaSalto);
+            AudioManager.Instance.PlaySFX(4);
         }
 
         // Activar/Desactivar vuelo
