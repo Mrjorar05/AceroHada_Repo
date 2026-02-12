@@ -597,7 +597,7 @@ Transform:
   m_GameObject: {fileID: 104675460}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.68, y: -2.01, z: -10}
+  m_LocalPosition: {x: -12.78, y: -2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -889,6 +889,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &249881320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2213146762422246268, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
+  m_PrefabInstance: {fileID: 8593600748208489707}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &255777771
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,18 +944,21 @@ MonoBehaviour:
   sfxSource: {fileID: 95550796}
   musicList:
   - {fileID: 8300000, guid: a85249bfc0f77fd4fa48f39a90174061, type: 3}
-  sfxListList:
+  - {fileID: 8300000, guid: 6c8345d9e0ad29240b5e87b427b21beb, type: 3}
+  sfxList:
   - {fileID: 8300000, guid: 34d96b4b4e44feb4693e814f5ac36833, type: 3}
   - {fileID: 8300000, guid: 246727ac6ff104e43a3e8d80ac2ec064, type: 3}
-  - {fileID: 8300000, guid: 2edec47c4b4b9a349828e6d2a7d4c7cb, type: 3}
-  - {fileID: 8300000, guid: e0b6d89bac88c09488ffbbe37c26938b, type: 3}
+  - {fileID: 8300000, guid: 910150524cd474440ab2360d47beba48, type: 3}
+  - {fileID: 8300000, guid: 0c66782f8d9172243855e99814838fa5, type: 3}
   - {fileID: 8300000, guid: d23294d4374f4d94c86494f16d91064b, type: 3}
-  - {fileID: 8300000, guid: d769b2a213160b240a90a080dcbc0bbd, type: 3}
-  - {fileID: 8300000, guid: b27d630c8fb6c9d4da8ab7aa552610b1, type: 3}
-  - {fileID: 8300000, guid: f732fc5581195fe439b3d5ec699e5849, type: 3}
-  - {fileID: 8300000, guid: 3c57d588e868b6d44bce2c50a189ad0d, type: 3}
-  - {fileID: 8300000, guid: 49896d21787e49840beacada00e0d827, type: 3}
-  - {fileID: 8300000, guid: d84578d14f532814dac5bf4a4d0ae59d, type: 3}
+  - {fileID: 8300000, guid: 2ffd47835790c9d4e86e6007178bc922, type: 3}
+  sceneMusicConfig:
+  - sceneName: Elena_Test
+    sceneIndex: 1
+    musicIndex: 0
+  - sceneName: Jordan_test
+    sceneIndex: 3
+    musicIndex: 1
 --- !u!1 &267381887
 GameObject:
   m_ObjectHideFlags: 0
@@ -4713,7 +4721,7 @@ Transform:
   m_GameObject: {fileID: 486871763}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.297635, y: -2.0100021, z: -10}
+  m_LocalPosition: {x: -5.3086743, y: -2.000002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4995,6 +5003,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &901552555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 901552557}
+  - component: {fileID: 901552556}
+  m_Layer: 0
+  m_Name: RespawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &901552556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901552555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f955aad6f5ad944da58dff51614aecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  healthBarFill: {fileID: 2039375657}
+  respawnPoint: {fileID: 901552557}
+  voidYLevel: -10
+--- !u!4 &901552557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901552555}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.71, y: -0.79, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &920026897
 GameObject:
   m_ObjectHideFlags: 0
@@ -5093,6 +5149,10 @@ PrefabInstance:
     - target: {fileID: 2793276693984677894, guid: 78d52b41bb0c9784ebf19f493d212b99, type: 3}
       propertyPath: m_Name
       value: MusicTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397134510151461780, guid: 78d52b41bb0c9784ebf19f493d212b99, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6791320649495158391, guid: 78d52b41bb0c9784ebf19f493d212b99, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6507,6 +6567,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5911008905763131710, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
   m_PrefabInstance: {fileID: 8593600748208489707}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1605552605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249881320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f955aad6f5ad944da58dff51614aecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1
+  healthBarFill: {fileID: 2039375657}
+  respawnPoint: {fileID: 901552557}
+  voidYLevel: -9
 --- !u!1 &1632956574
 GameObject:
   m_ObjectHideFlags: 0
@@ -7534,6 +7610,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4263070604134642230, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4263070604134642230, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionId
+      value: 363ef631-9868-4691-a746-ea386d444a33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4263070604134642230, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionName
+      value: 'Gameplay/Agarrar[/Keyboard/e]'
+      objectReference: {fileID: 0}
     - target: {fileID: 4714368892726125020, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
       propertyPath: totalPickups
       value: 3
@@ -7544,11 +7632,11 @@ PrefabInstance:
       objectReference: {fileID: 53828882}
     - target: {fileID: 5911008905763131710, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.68
+      value: -12.78
       objectReference: {fileID: 0}
     - target: {fileID: 5911008905763131710, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.01
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5911008905763131710, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7597,7 +7685,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2213146762422246268, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1605552605}
   m_SourcePrefab: {fileID: 100100000, guid: 83d98cef7e3b2e64a800c1f83681c823, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -7632,3 +7723,4 @@ SceneRoots:
   - {fileID: 991825177}
   - {fileID: 76469082}
   - {fileID: 946450825}
+  - {fileID: 901552557}

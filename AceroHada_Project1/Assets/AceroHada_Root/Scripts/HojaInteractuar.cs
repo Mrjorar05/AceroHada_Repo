@@ -20,6 +20,7 @@ public class HojaInteractuar : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             jugadorCerca = true;
+            AudioManager.Instance.PlaySFX(0);
         }
     }
 
